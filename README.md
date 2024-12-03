@@ -143,7 +143,8 @@ This dashboard provides a multidimensional perspective on grant management, enab
 - Funding Source Performance: The grant status breakdown identifies reliable funding sources (e.g., NASA with predominantly active grants) and areas requiring follow-up, such as pending grants from the Ford Foundation.
 - Project Prioritization: The funding distribution chart highlights which research areas receive the most financial support, helping to align funding priorities with organizational goals.
 
-
+## Database Information
+Name of the database: cs_vya95458
 
 
 
