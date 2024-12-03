@@ -103,14 +103,6 @@ This dashboard combines three visualizations to provide a comprehensive analysis
 - Comparison of Used vs. Allocated Grant Budgets Across Projects: The top-right chart compares the allocated grant amount with the actual used budget for specific projects such as "Machine Learning in Healthcare," "AI Research," and "Organic Chemistry," identifying disparities in budget utilization.
 - Grant Distribution by Funding Source and Status: The bottom chart displays grant contributions from different funding sources (e.g., NASA, WHO, Facebook AI) and their statuses (Active, Complete, or Pending), using color-coded bars for clarity.
 ### Justification:
-
-Description:
-This dashboard combines three visualizations to provide a comprehensive analysis of grant funding distribution, usage, and status across projects and funding sources.
-
-Grant Funding by Research Project: The top-left chart shows the total grant funding allocated to various research projects, highlighting significant allocations to projects like "Cancer Research" and "Genetics Study."
-Comparison of Used vs. Allocated Grant Budgets Across Projects: The top-right chart compares the allocated grant amount with the actual used budget for specific projects such as "Machine Learning in Healthcare," "AI Research," and "Organic Chemistry," identifying disparities in budget utilization.
-Grant Distribution by Funding Source and Status: The bottom chart displays grant contributions from different funding sources (e.g., NASA, WHO, Facebook AI) and their statuses (Active, Complete, or Pending), using color-coded bars for clarity.
-Justification:
 This dashboard provides a multidimensional perspective on grant management, enabling stakeholders to analyze funding allocation, utilization, and source reliability effectively.
 - Allocation and Utilization Insights: By comparing allocated and used budgets, stakeholders can assess whether projects are under- or over-utilizing their funds, aiding in financial planning and resource optimization.
 - Funding Source Performance: The grant status breakdown identifies reliable funding sources (e.g., NASA with predominantly active grants) and areas requiring follow-up, such as pending grants from the Ford Foundation.
