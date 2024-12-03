@@ -70,6 +70,8 @@ The "Equipment" entity tracks details such as equipment name, maintenance cost, 
 # Queries for Insight:
 
 # Tableau Visualizations and Dashboard:
+Query #2: 
+<img width="942" alt="Screenshot 2024-12-03 at 12 11 31 AM" src="https://github.com/user-attachments/assets/d5d92260-d407-4fd0-a03e-636d54fe6f16">
 
 
 
