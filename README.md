@@ -31,7 +31,29 @@ The "Equipment" entity tracks details such as equipment name, maintenance cost, 
 # Data Dictionary:
 ### Project Table
 <img width="615" alt="Screenshot 2024-12-02 at 11 31 40 PM" src="https://github.com/user-attachments/assets/045fc185-5dd2-4400-a830-c9f34743cc00">
+
 ### Researcher Table
+<img width="615" alt="Screenshot 2024-12-02 at 11 33 15 PM" src="https://github.com/user-attachments/assets/f5fb2c9b-161d-4988-a8d8-b6d60d0ebf45">
+
+### Department Table
+
+### Equipment Table
+<img width="615" alt="Screenshot 2024-12-02 at 11 33 44 PM" src="https://github.com/user-attachments/assets/251479bd-23c1-41de-8597-b89ac6e9d146">
+
+### Grants Table
+<img width="615" alt="Screenshot 2024-12-02 at 11 34 25 PM" src="https://github.com/user-attachments/assets/10348723-8836-4ed4-8069-f1a9bf99e66b">
+
+### Publication Table
+<img width="615" alt="Screenshot 2024-12-02 at 11 35 10 PM" src="https://github.com/user-attachments/assets/eda39913-3a23-47e1-83ff-c21222a34c1d">
+
+### Collaborating Institution Table
+<img width="615" alt="Screenshot 2024-12-02 at 11 37 22 PM" src="https://github.com/user-attachments/assets/8eba586e-1e55-41bb-9cb3-971496363e3b">
+
+
+
+
+
+
 
 
 
