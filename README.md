@@ -31,6 +31,7 @@ The "Equipment" entity tracks details such as equipment name, maintenance cost, 
 # Data Dictionary:
 ### Project Table
 <img width="615" alt="Screenshot 2024-12-02 at 11 31 40 PM" src="https://github.com/user-attachments/assets/045fc185-5dd2-4400-a830-c9f34743cc00">
+### Researcher Table
 
 
 
