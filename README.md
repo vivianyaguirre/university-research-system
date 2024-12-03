@@ -51,6 +51,26 @@ The "Equipment" entity tracks details such as equipment name, maintenance cost, 
 ### Collaborating Institution Table
 <img width="615" alt="Screenshot 2024-12-02 at 11 37 22 PM" src="https://github.com/user-attachments/assets/8eba586e-1e55-41bb-9cb3-971496363e3b">
 
+### Department Table
+<img width="615" alt="Screenshot 2024-12-02 at 11 40 01 PM" src="https://github.com/user-attachments/assets/88c5df89-e734-451a-97e9-adfa25cf1e95">
+
+### Dataset Table
+<img width="615" alt="Screenshot 2024-12-02 at 11 40 55 PM" src="https://github.com/user-attachments/assets/e8c9fcd1-653b-47ec-884f-85d3b9aea0e6">
+
+### Funding Source Table
+<img width="615" alt="Screenshot 2024-12-02 at 11 42 42 PM" src="https://github.com/user-attachments/assets/c1af0968-fccb-437d-9869-28d5a050a4cd">
+
+### Project_has_Researcher Table
+<img width="615" alt="Screenshot 2024-12-02 at 11 43 29 PM" src="https://github.com/user-attachments/assets/027c2fd7-892d-48e8-abd1-f0bb1e315a90">
+
+### Project_has_Collaborating Institution Table
+<img width="615" alt="Screenshot 2024-12-02 at 11 44 41 PM" src="https://github.com/user-attachments/assets/30c5b113-1634-4f9c-8b50-7d751d542385">
+
+### ProjectEquipment
+<img width="612" alt="Screenshot 2024-12-02 at 11 46 09 PM" src="https://github.com/user-attachments/assets/09039a5c-c39a-485d-b17a-aa56e522539e">
+
+
+
 
 
 
