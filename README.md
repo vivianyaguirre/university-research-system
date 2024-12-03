@@ -74,9 +74,9 @@ The "Equipment" entity tracks details such as equipment name, maintenance cost, 
 <img width="909" alt="Screenshot 2024-12-03 at 12 19 42 AM" src="https://github.com/user-attachments/assets/a6c15ac7-8776-4004-9b1e-ff0c5edabc4e">
 
 ### Description:
-
-
-
+This visualization compares the used budget and allocated grant amount for different research projects, including "Machine Learning in Healthcare," "AI Research," "Quantum Mechanics," and "Organic Chemistry." The chart is divided into two sections: the upper chart shows the used budget for each project, while the lower chart displays the total allocated grant amount. Each project is represented by a distinct color, with a consistent color scheme across both sections for easy comparison.
+### Justification:
+This visualization is designed to provide insights into how effectively research projects utilize their allocated budgets. By comparing the used budget with the allocated grant amount, it highlights discrepancies between funding allocation and actual usage. For instance, "Machine Learning in Healthcare" shows a higher used budget compared to other projects, indicating significant resource utilization, while "Quantum Mechanics" appears to underutilize its allocated budget. This comparison enables stakeholders to assess financial efficiency, identify potential underfunding or overspending, and make informed decisions regarding future budget adjustments or reallocation. The clear color coding and split charts ensure readability and ease of interpretation.
 
 ## Visualization - Query #2:
 <img width="942" alt="Screenshot 2024-12-03 at 12 11 31 AM" src="https://github.com/user-attachments/assets/d5d92260-d407-4fd0-a03e-636d54fe6f16">
