@@ -37,8 +37,6 @@ The "Equipment" entity tracks details such as equipment name, maintenance cost, 
 ### Researcher Table
 <img width="615" alt="Screenshot 2024-12-02 at 11 33 15 PM" src="https://github.com/user-attachments/assets/f5fb2c9b-161d-4988-a8d8-b6d60d0ebf45">
 
-### Department Table
-
 ### Equipment Table
 <img width="615" alt="Screenshot 2024-12-02 at 11 33 44 PM" src="https://github.com/user-attachments/assets/251479bd-23c1-41de-8597-b89ac6e9d146">
 
