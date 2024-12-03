@@ -67,6 +67,11 @@ The "Equipment" entity tracks details such as equipment name, maintenance cost, 
 ### ProjectEquipment
 <img width="612" alt="Screenshot 2024-12-02 at 11 46 09 PM" src="https://github.com/user-attachments/assets/09039a5c-c39a-485d-b17a-aa56e522539e">
 
+# Queries for Insight:
+
+# Tableau Visualizations and Dashboard:
+
+
 
 
 
