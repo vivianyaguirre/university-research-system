@@ -30,7 +30,6 @@ Datasets generated during research activities are connected to projects through 
 The "Researcher" entity includes a self-referential relationship ("Reports To"), allowing the organization to track reporting hierarchies among researchers. This supports effective team management and organizational oversight.
 ### 9. Equipment Maintenance and Availability:
 The "Equipment" entity tracks details such as equipment name, maintenance cost, and availability status, ensuring proper resource management and allocation for ongoing projects.
-<img width="411" alt="Screenshot 2024-12-02 at 11 25 20 PM" src="https://github.com/user-attachments/assets/74a70124-2415-4ef8-97a1-370d29c2cd5a">
 # Data Dictionary:
 ### Project Table
 <img width="615" alt="Screenshot 2024-12-02 at 11 31 40 PM" src="https://github.com/user-attachments/assets/045fc185-5dd2-4400-a830-c9f34743cc00">
