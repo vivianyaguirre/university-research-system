@@ -94,6 +94,14 @@ This bar chart, titled "Grant Distribution by Funding Source and Status", visual
 ### Justification:
 This visualization is designed to provide insights into the contribution levels and grant statuses from different funding sources. By using a color-coded scheme, it effectively highlights the proportion of grants that are active, completed, or pending, helping stakeholders understand the current progress and pipeline of grants. For instance, funding from sources like NASA and the National Science Foundation is predominantly active, while WHO shows a higher proportion of completed grants. The visualization also identifies pending grants (e.g., Ford Foundation and UNICEF), which may require follow-up or intervention. This chart aids in monitoring grant performance and assessing which funding sources are the most reliable or require attention for grant activation.
 
+## Dashboard
+<img width="987" alt="Screenshot 2024-12-03 at 12 30 18 AM" src="https://github.com/user-attachments/assets/bb6b3788-3925-4802-86f0-8cbd5d8593cb">
+
+### Description:
+This dashboard combines three visualizations to provide a comprehensive analysis of grant funding distribution, usage, and status across projects and funding sources.
+ - Grant Funding by Research Project: The top-left chart shows the total grant funding allocated to various research projects, highlighting significant allocations to projects like "Cancer Research" and "Genetics Study."
+- Comparison of Used vs. Allocated Grant Budgets Across Projects: The top-right chart compares the allocated grant amount with the actual used budget for specific projects such as "Machine Learning in Healthcare," "AI Research," and "Organic Chemistry," identifying disparities in budget utilization.
+- Grant Distribution by Funding Source and Status: The bottom chart displays grant contributions from different funding sources (e.g., NASA, WHO, Facebook AI) and their statuses (Active, Complete, or Pending), using color-coded bars for clarity.
 
 
 
