@@ -69,6 +69,25 @@ The "Equipment" entity tracks details such as equipment name, maintenance cost, 
 
 # Queries for Insight:
 
+Query #1
+   - Retrieve a summary of all ongoing projects and their associated grants, showing the total grant amount, used budget so far, and remaining balance.
+
+<img width="440" alt="Q1" src="https://github.com/user-attachments/assets/5c9e4552-46ea-4802-a8b5-f5eab1dd3a7d">
+
+Q1 Managerial Perspective:
+   - This query focuses on how well the funds that are being allocated to active projects are actually being used. We do this by pulling the project title, its start and end dates, the total grant amount provided, the amount spent so far (titled as “used_budget”), and the remaining funds. By ordering these results from remaining balance descending, managers can quickly identify projects with unutilized funds and decide on necessary actions, such as redistributing resources or increasing expenditures to achieve project objectives.  (This query includes projects that are currently ongoing as of today)
+
+
+Query #2
+   - Retrieve a list of researchers and their projects, including the project title and the total grant funding received for each project, sorted by researcher name and project title.
+
+<img width="408" alt="Q2" src="https://github.com/user-attachments/assets/07b7f5a2-9cee-4544-92a5-b84e9fbd283e">
+
+Q2 Managerial Perspective:
+   - This query provides managers with a clear overview of researchers and project funding, helping them assess resource use and project priorities. By showing the total funding for each project and linking researchers to their work, it helps managers ensure resources are properly allocated and high-value projects get the necessary support. Additionally, this query helps identify areas where staffing or funding adjustments may be needed to align with company goals, supporting better decision-making and efficient project management.  
+
+
+
 # Tableau Visualizations and Dashboard:
 ## Visualization - Query #1:
 <img width="909" alt="Screenshot 2024-12-03 at 12 19 42 AM" src="https://github.com/user-attachments/assets/a6c15ac7-8776-4004-9b1e-ff0c5edabc4e">
