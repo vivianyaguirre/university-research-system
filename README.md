@@ -70,6 +70,14 @@ The "Equipment" entity tracks details such as equipment name, maintenance cost, 
 # Queries for Insight:
 
 # Tableau Visualizations and Dashboard:
+## Visualization - Query #1:
+<img width="909" alt="Screenshot 2024-12-03 at 12 19 42 AM" src="https://github.com/user-attachments/assets/a6c15ac7-8776-4004-9b1e-ff0c5edabc4e">
+
+### Description:
+
+
+
+
 ## Visualization - Query #2:
 <img width="942" alt="Screenshot 2024-12-03 at 12 11 31 AM" src="https://github.com/user-attachments/assets/d5d92260-d407-4fd0-a03e-636d54fe6f16">
 
@@ -77,7 +85,7 @@ The "Equipment" entity tracks details such as equipment name, maintenance cost, 
 This bar chart, titled "Grant Funding by Research Project", visualizes the total grant funding allocated to various research projects. The x-axis represents the project titles, while the y-axis indicates the total funding amounts in USD. Each bar corresponds to a specific research project, with its height reflecting the funding received. The visualization highlights projects such as "Cancer Research," "Genetics Study," and "Machine Learning in Healthcare" as having received higher levels of funding compared to others like "Climate Change" and "Number Theory."
 ### Justification:
 This visualization effectively highlights the distribution of grant funding across various research projects, making it easy to compare funding levels at a glance. By using a bar chart, the visualization provides a clear and intuitive way to identify the most and least funded projects, such as "Cancer Research" and "Genetics Study" receiving the highest funding, while areas like "Climate Change" receive less. This allows stakeholders to quickly assess funding priorities and make informed decisions about reallocating resources or justifying current allocations, ensuring alignment with organizational goals and research priorities.
-## Visualization - Query #
+
 
 
 
