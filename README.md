@@ -86,6 +86,19 @@ This bar chart, titled "Grant Funding by Research Project", visualizes the total
 ### Justification:
 This visualization effectively highlights the distribution of grant funding across various research projects, making it easy to compare funding levels at a glance. By using a bar chart, the visualization provides a clear and intuitive way to identify the most and least funded projects, such as "Cancer Research" and "Genetics Study" receiving the highest funding, while areas like "Climate Change" receive less. This allows stakeholders to quickly assess funding priorities and make informed decisions about reallocating resources or justifying current allocations, ensuring alignment with organizational goals and research priorities.
 
+## Visualization - Query #5:
+<img width="764" alt="Screenshot 2024-12-03 at 12 25 23 AM" src="https://github.com/user-attachments/assets/2976d305-aef0-41a7-a239-99811fb2860e">
+
+### Description:
+This bar chart, titled "Grant Distribution by Funding Source and Status", visualizes the grant amounts contributed by various funding sources such as Facebook AI, Ford Foundation, NASA, WHO, and others. The bars are color-coded based on the Grant Status—Active (blue), Complete (orange), and Pending (red). The x-axis represents the funding sources, while the y-axis displays the grant amounts. The chart allows for a side-by-side comparison of funding levels and their current statuses for each source.
+### Justification:
+This visualization is designed to provide insights into the contribution levels and grant statuses from different funding sources. By using a color-coded scheme, it effectively highlights the proportion of grants that are active, completed, or pending, helping stakeholders understand the current progress and pipeline of grants. For instance, funding from sources like NASA and the National Science Foundation is predominantly active, while WHO shows a higher proportion of completed grants. The visualization also identifies pending grants (e.g., Ford Foundation and UNICEF), which may require follow-up or intervention. This chart aids in monitoring grant performance and assessing which funding sources are the most reliable or require attention for grant activation.
+
+
+
+
+
+
 
 
 
