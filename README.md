@@ -69,22 +69,39 @@ The "Equipment" entity tracks details such as equipment name, maintenance cost, 
 
 # Queries for Insight:
 
-Query #1
-   - Retrieve a summary of all ongoing projects and their associated grants, showing the total grant amount, used budget so far, and remaining balance.
+Query #1:  Retrieve a summary of all ongoing projects and their associated grants, showing the total grant amount, used budget so far, and remaining balance.
+
+Q1 Managerial Perspective: This query focuses on how well the funds that are being allocated to active projects are actually being used. We do this by pulling the project title, its start and end dates, the total grant amount provided, the amount spent so far (titled as “used_budget”), and the remaining funds. By ordering these results from remaining balance descending, managers can quickly identify projects with unutilized funds and decide on necessary actions, such as redistributing resources or increasing expenditures to achieve project objectives.  (This query includes projects that are currently ongoing as of today)
 
 <img width="440" alt="Q1" src="https://github.com/user-attachments/assets/5c9e4552-46ea-4802-a8b5-f5eab1dd3a7d">
 
-Q1 Managerial Perspective:
-   - This query focuses on how well the funds that are being allocated to active projects are actually being used. We do this by pulling the project title, its start and end dates, the total grant amount provided, the amount spent so far (titled as “used_budget”), and the remaining funds. By ordering these results from remaining balance descending, managers can quickly identify projects with unutilized funds and decide on necessary actions, such as redistributing resources or increasing expenditures to achieve project objectives.  (This query includes projects that are currently ongoing as of today)
 
+Query #2:  Retrieve a list of researchers and their projects, including the project title and the total grant funding received for each project, sorted by researcher name and project title.
 
-Query #2
-   - Retrieve a list of researchers and their projects, including the project title and the total grant funding received for each project, sorted by researcher name and project title.
+Q2 Managerial Perspective: This query provides managers with a clear overview of researchers and project funding, helping them assess resource use and project priorities. By showing the total funding for each project and linking researchers to their work, it helps managers ensure resources are properly allocated and high-value projects get the necessary support. Additionally, this query helps identify areas where staffing or funding adjustments may be needed to align with company goals, supporting better decision-making and efficient project management.
 
 <img width="408" alt="Q2" src="https://github.com/user-attachments/assets/07b7f5a2-9cee-4544-92a5-b84e9fbd283e">
 
-Q2 Managerial Perspective:
-   - This query provides managers with a clear overview of researchers and project funding, helping them assess resource use and project priorities. By showing the total funding for each project and linking researchers to their work, it helps managers ensure resources are properly allocated and high-value projects get the necessary support. Additionally, this query helps identify areas where staffing or funding adjustments may be needed to align with company goals, supporting better decision-making and efficient project management.  
+
+Query #3:  Calculate the total number of projects each researcher is involved in and their average years of experience in the department.
+
+Q3 Managerial Perspective: This query helps managers understand how researchers are distributed across projects and departments, showing their workload and average experience levels. It identifies overworked or underutilized researchers and highlights where expertise is concentrated. With these insights, managers can balance workloads, assign resources strategically, and ensure projects are supported by the right level of experience.
+
+ <img width="439" alt="Q3" src="https://github.com/user-attachments/assets/bb9ff2db-4185-4a46-9809-241732598405">
+
+
+Query #4:  Select the department name, project title, pending grant amount, grant date, and conditions from the corresponding tables, joining them by department and project IDs, and filter for projects with pending grants. Order by department name and project title.
+
+Q4 Managerial Perspective: This query provides insights into projects that have pending grants and their associated departments, enabling managers to identify areas requiring attention regarding financial support. By allowing managers to see which departments have projects with pending grants and the specific details of those grants, it helps prioritize follow-ups and manage financial expectations. The results help track grant conditions and identify which projects are still awaiting approval or funding disbursement.
+
+<img width="439" alt="Q4" src="https://github.com/user-attachments/assets/762d56ca-e0e7-4396-bd11-db50a5ea9ac7">
+
+
+Query #5:  Select the funding source name, project title, grant amount, and grant status from the Grants table, join the FundingSource table on the funding source ID, join the Project table on the project ID, and order the results by grant amount in descending order.
+
+Q5 Managerial Perspective: This query offers a detailed view of grants, highlighting the funding sources, project titles, grant amounts, and grant statuses. By sorting the results by grant amount, it helps managers quickly identify which projects are receiving the most financial support. The inclusion of grant statuses provides insights into the current stage of each funding, allowing managers to track the progress of each grant and ensure timely follow-up on those still in process. Understanding the distribution of grant amounts across projects, along with the funding sources, supports more effective financial planning and resource allocation by revealing where the funding is coming from for each project.
+
+<img width="479" alt="Q5" src="https://github.com/user-attachments/assets/e718c192-8e29-4ec3-b18c-45737643eafe">
 
 
 
