@@ -30,7 +30,7 @@ The "Equipment" entity tracks details such as equipment name, maintenance cost, 
 <img width="411" alt="Screenshot 2024-12-02 at 11 25 20 PM" src="https://github.com/user-attachments/assets/74a70124-2415-4ef8-97a1-370d29c2cd5a">
 # Data Dictionary:
 ### Project Table
-<img width="606" alt="Screenshot 2024-12-02 at 11 29 57 PM" src="https://github.com/user-attachments/assets/a767bd6c-ab0b-475c-9bfb-45dd759df20a">
+<img width="615" alt="Screenshot 2024-12-02 at 11 31 40 PM" src="https://github.com/user-attachments/assets/045fc185-5dd2-4400-a830-c9f34743cc00">
 
 
 
