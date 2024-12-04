@@ -309,6 +309,19 @@ INSERT INTO `cs_vya95458`.`Equipment` (`idEquipment`, `equipName`, `maintenanceC
 (9, 'MRI Scanner', 10000.00, 0),
 (10, 'Ultracentrifuge', 5500.00, 1);
 
+INSERT INTO ProjectEquipment (idEquipment, idProject, usageStart, usageEnd) VALUES
+(1, 1, '2023-01-01', '2023-06-30'),  -- AI Research uses Microscope
+(2, 2, '2022-06-01', '2022-12-31'),  -- Quantum Mechanics uses Spectrometer
+(3, 3, '2023-03-15', '2023-12-15'),  -- Organic Chemistry uses X-Ray Machine
+(4, 4, '2023-05-10', '2024-01-10'),  -- Genetics Study uses PCR Machine
+(5, 5, '2023-02-20', '2023-08-20'),  -- Number Theory uses Centrifuge
+(6, 6, '2021-04-01', '2022-12-31'),  -- Civil Engineering uses Thermal Cycler
+(7, 7, '2022-01-15', '2023-01-15'),  -- Climate Change Impacts uses DNA Sequencer
+(8, 8, '2021-07-01', '2022-07-01'),  -- Cancer Research uses Electron Microscope
+(9, 9, '2023-02-01', '2023-12-01'),  -- Financial Modelling uses MRI Scanner
+(10, 10, '2023-03-01', '2024-03-01'); -- Machine Learning in Healthcare uses Ultracentrifuge
+
+
 INSERT INTO `cs_vya95458`.`Publication` (`idPub`, `pubTitle`, `pubDate`, `journal`, `citationCount`, `idProject`) VALUES
 (1, 'AI in Healthcare', '2023-05-15', 'Journal of AI Research', 10, 1),
 (2, 'Quantum Mechanics Theory', '2023-03-10', 'Physics Today', 5, 2),
@@ -416,7 +429,40 @@ GROUP BY
 ORDER BY 
     Researcher.name, Project.projectTitle;
 
-select * from Department;
+
+
+SELECT 
+    Project.idProject, Project.projectTitle,
+    Project.startDate,Project.endDate,
+    Project.budget,
+    Department.idDepartment, Department.deptName, Department.location,
+    Researcher.idResearcher, Researcher.name, Researcher.role, Researcher.yrsOfExperience,
+    Equipment.idEquipment, Equipment.equipName,
+    Equipment.maintenanceCost,
+    Grants.grantAmount,
+    Grants.grantConditions,
+    FundingSource.idFundingSource,
+    FundingSource.fundName,
+    Publication.idPub,
+    Publication.pubTitle,
+    Publication.pubDate,
+    Dataset.idData,
+    Dataset.dataTitle,
+    CollaboratingInstitution.idCollab,
+    CollaboratingInstitution.institutionName
+FROM 
+    Project
+LEFT JOIN Department ON Project.idDepartment = Department.idDepartment
+LEFT JOIN Project_has_Researcher ON Project.idProject = Project_has_Researcher.idProject
+LEFT JOIN Researcher ON Project_has_Researcher.idResearcher = Researcher.idResearcher
+LEFT JOIN ProjectEquipment ON Project.idProject = ProjectEquipment.idProject
+LEFT JOIN Equipment ON ProjectEquipment.idEquipment = Equipment.idEquipment
+LEFT JOIN Grants ON Project.idProject = Grants.idProject
+LEFT JOIN FundingSource ON Grants.idFundingSource = FundingSource.idFundingSource
+LEFT JOIN Publication ON Project.idProject = Publication.idProject
+LEFT JOIN Dataset ON Project.idProject = Dataset.idProject
+LEFT JOIN Project_has_CollaboratingInstitution ON Project.idProject = Project_has_CollaboratingInstitution.idProject
+LEFT JOIN CollaboratingInstitution ON Project_has_CollaboratingInstitution.idCollab = CollaboratingInstitution.idCollab;
 
 SET SQL_MODE=@OLD_SQL_MODE;
 SET FOREIGN_KEY_CHECKS=@OLD_FOREIGN_KEY_CHECKS;
