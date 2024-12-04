@@ -71,6 +71,7 @@ The "Equipment" entity tracks details such as equipment name, maintenance cost, 
 ![IMG_7280](IMG_7280.png)
 ![IMG_3973](IMG_3973.png)
 ![IMG_3452](IMG_3452.png)
+![IMG_7989](IMG_7989.png)
 
 
 # Queries for Insight:
